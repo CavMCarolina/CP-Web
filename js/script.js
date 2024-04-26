@@ -180,6 +180,7 @@ avaliacoes.forEach(avaliacao => {
 
     const detalhesLi = document.createElement('li');
     detalhesLi.style.width = '12rem';
+    detalhesLi.style.paddingLeft = '1rem';
     detalhesLi.textContent = avaliacao.detalhes;
     ul.appendChild(detalhesLi);
 

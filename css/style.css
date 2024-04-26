@@ -484,11 +484,6 @@ nav a {
     font-size: 16px;
 }
 
-.avaliacao li {
-    font-size: 14px;
-    margin: 9px 1rem 3px 0;
-}
-
 .data {
     font-weight: 600;
 }
@@ -730,6 +725,7 @@ footer a {
 /* Avaliação */
 .avaliacao ul li {
     display: flex;
+    justify-content: space-between;
     align-items: baseline;
     font-weight: 500;
 }
